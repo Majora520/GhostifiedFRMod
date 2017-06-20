@@ -1,0 +1,63 @@
+#-------------------------#
+#     FrostedOPMod: R     #
+#       version: 2.1      #
+#     creator: savnith    #
+#-------------------------#
+
+## General Server stuff ##
+server:
+    name: FrostedOP
+    ip: mc.frostedop.net
+    motd-line-1: "                &f>>&b&l FrostedOP &f<<            "
+    motd-line-2: "&b&m---&8[ &e&lOfficial FrostedOP Server &8]&b&m---"
+    motd-full-server: "&cThe server is currently full"
+    perm-ban-url: "https://frostedop.boards.net"
+    gtfo-url: "https://frostedop.boards.net"
+
+## All server Announcements ##
+announcer:
+    ## Is the announcer enabled? ##
+    enabled: true
+    ## What is the prefix to the Announcer ##
+    prefix: "&8&l(&3&lFrosted&b&lOP&8&l)&b&l "
+    ## Time delay in sec ##
+    delay: 180
+    ## Messages to announce ##
+    messages:
+    - 'Be sure to visit our forums at (http://frostedop.boards.net/)'
+    - 'Vote here at: http://minecraft-server-list.com/server/396736/'
+    - 'Want to have a donator rank on frostedop? Get one with /buy'
+    - 'You can always review the server rules here: (https://info.frostedop.net/)'
+    - 'If you are not OP, be sure to ask!'
+    - 'Somebody breaking the rules? Report it! /report <user> <reason>'
+    - 'Griefing is not allowed!'
+    - 'Hacked clients are allowed!'
+    - 'Interested in becoming admin? Do "/ai" for more information!'
+    - 'You may view all online administrators via "/list -a"'
+    - 'Save your buildings via WorldEdit! http://info.frostedop.net for more information!'
+    - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
+    - 'You may download FrostedOP Mod here: https://tiny.cx/fopmr'
+    - 'iFrostBite is the owner of FrostedOP.'
+    - 'Server lagging?  Check the lag via "/tps"'
+    - 'You are allowed to record and stream videos on FrostedOP.'
+    - 'Player vs player while in creative or god mode is forbidden!'
+    - 'Spawn killing is forbidden!'
+    - 'Invisible potions are allowed!'
+    - 'Serial griefing and trolling will result in a permanent ban!'
+    - 'Want to help FrostedOP stay online? Donate with /buy '
+    - 'Racism, nazism, and sexism are strictly forbidden!'
+    - 'Our Developers are, Savnith and DarkGamingDronze'
+
+toggles:
+    no-rain: true
+    autoday: true
+    
+## Funn stuff ##
+fun:
+    djump: false
+    
+## Disabled shit ##
+disabled:
+    cmdblock: true
+    lava-place: true
+    water-place: true

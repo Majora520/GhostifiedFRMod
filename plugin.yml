@@ -1,0 +1,5 @@
+name: FrostedOPMod-R
+version: ${fopmr.build.ver}
+description: The main plugin used on FrostedOP!
+authors: [Savnith]
+main: net.savcode.fopmr.FrostedOPMod
